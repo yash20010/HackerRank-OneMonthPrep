@@ -64,11 +64,11 @@ function countingSort(arr) {
     freq[arr[i]]++
   }
   return freq
-  let result = []
-  for (let i = 0; i < freq.length; i++) {
-    for (let j = 0; j < freq[i]; j++) {
-      result.push(i)
-    }
-  }
-  return result
+  //   let result = []
+  //   for (let i = 0; i < freq.length; i++) {
+  //     for (let j = 0; j < freq[i]; j++) {
+  //       result.push(i)
+  //     }
+  //   }
+  //   return result
 }
